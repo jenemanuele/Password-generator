@@ -44,7 +44,7 @@ return isBasicValidation;
 function generatePassword(passwordLength) {
   var length = passwordLength;
   alert(passwordLength);
-  var charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIKLMNOPQRSTUVWXYZ123456789";
+  var charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIKLMNOPQRSTUVWXYZ123456789#@$&%!";
   
   
   var retVal="";
