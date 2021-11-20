@@ -1,6 +1,3 @@
-// Assignment code here
-
-// Get references to the #generate element
 var generateBtn = document.querySelector("#generate"); {
   
 
@@ -18,7 +15,7 @@ function writePassword() {
   passwordText.value = password;
 
 }
-
+// password length
 function askPasswordLength() {
   var answer = prompt("Please enter length of password,  8 to 128 characters", "");
   if (answer > 8 && answer < 128) {
@@ -28,6 +25,7 @@ function askPasswordLength() {
   return -1;
 }
 
+//case/character/numeric validation
 function askBasicValidation() {
   var isBasicValidation = true;
   var valAnswer = prompt("Would you like to include lowercase, uppercase, numeric, and/or special characters: yes/no", "yes");
